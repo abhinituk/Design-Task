@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DesignTaskOne</string>
+    <string name="profile_pic">profile pic</string>
+    <string name="name">Abhishek Kumar</string>
+    <string name="count_icon">count icon</string>
+    <string name="count">249</string>
+    <string name="detail">Eckovation is on the mission to make better education accessible, by connecting parents, students and teachers</string>
+    <string name="timeline_photo">Timeline Photo</string>
+    <string name="like">12 Likes</string>
+    <string name="comments">comments (7)</string>
+    <string name="time">09:27 AM</string>
+    <string name="share">Share</string>
+</resources>
