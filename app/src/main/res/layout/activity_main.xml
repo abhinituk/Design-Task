@@ -31,7 +31,8 @@
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:contentDescription="@string/profile_pic"
-                android:src="@drawable/ic_profile" />
+                android:src="@drawable/ic_profile"
+                android:layout_centerVertical="true" />
 
             <TextView
                 android:id="@+id/name"
@@ -47,19 +48,6 @@
                 android:layout_toRightOf="@+id/profile_pic"
                 android:text="@string/name" />
 
-            <ImageView
-                android:id="@+id/count_icon"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/name"
-                android:layout_marginBottom="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_toEndOf="@+id/profile_pic"
-                android:layout_toRightOf="@+id/profile_pic"
-                android:contentDescription="@string/count_icon"
-                android:src="@drawable/ic_remove_red_eye_black" />
-
             <TextView
                 android:id="@+id/count"
                 android:layout_width="wrap_content"
@@ -68,9 +56,13 @@
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="8dp"
                 android:layout_marginStart="8dp"
-                android:layout_toEndOf="@+id/count_icon"
-                android:layout_toRightOf="@+id/count_icon"
-                android:text="@string/count" />
+                android:layout_toEndOf="@+id/profile_pic"
+                android:layout_toRightOf="@+id/profile_pic"
+                android:text="@string/count"
+                android:drawableStart="@drawable/ic_visible"
+                android:drawableLeft="@drawable/ic_visible"
+                android:gravity="center"
+                android:drawablePadding="2dp"/>
 
             <TextView
                 android:id="@+id/time"
@@ -82,10 +74,6 @@
                 android:text="@string/time" />
         </RelativeLayout>
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:background="@color/colorGrey" />
 
         <TextView
             android:id="@+id/detail"
@@ -109,7 +97,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            >
 
             <Button
                 style="?android:attr/buttonStyle"
@@ -129,9 +118,9 @@
                 style="?android:attr/buttonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:drawableEnd="@drawable/ic_favorite_border_white"
+                android:drawableEnd="@drawable/ic_like"
                 android:drawablePadding="4dp"
-                android:drawableRight="@drawable/ic_favorite_border_white"
+                android:drawableRight="@drawable/ic_like"
                 android:text="@string/like"
                 android:fontFamily="sans-serif-condensed"/>
         </LinearLayout>
