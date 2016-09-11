@@ -112,22 +112,26 @@
                 style="?android:attr/buttonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/comments" />
+                android:text="@string/comments"
+                android:fontFamily="sans-serif-condensed" />
 
             <Button
                 style="?android:attr/buttonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/share" />
+                android:text="@string/share"
+                android:fontFamily="sans-serif-condensed"/>
 
             <Button
                 style="?android:attr/buttonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:drawableEnd="@drawable/ic_favorite_black"
+                android:drawableEnd="@drawable/ic_favorite_border_white"
                 android:drawablePadding="4dp"
-                android:drawableRight="@drawable/ic_favorite_black"
-                android:text="@string/like" />
+                android:drawableRight="@drawable/ic_favorite_border_white"
+                android:text="@string/like"
+                android:drawableTint="@color/colorAccent"
+                android:fontFamily="sans-serif-condensed"/>
         </LinearLayout>
     </LinearLayout>
 
