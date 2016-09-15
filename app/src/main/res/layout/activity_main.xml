@@ -32,12 +32,13 @@
 
             <TextView
                 android:id="@+id/name"
-                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:fontFamily="sans-serif"
+                android:textSize="8pt"
+                android:textColor="@color/colorBlack"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
                 android:layout_marginStart="8dp"
-                android:fontFamily="sans-serif"
                 android:layout_marginTop="8dp"
                 android:layout_toEndOf="@+id/profile_pic"
                 android:layout_toRightOf="@+id/profile_pic"
@@ -46,7 +47,6 @@
 
             <TextView
                 android:id="@+id/count"
-                android:textAppearance="?android:attr/textAppearanceSmall"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/name"
@@ -124,7 +124,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:drawableEnd="@drawable/ic_like"
-                android:drawablePadding="4dp"
                 android:drawableRight="@drawable/ic_like"
                 android:text="@string/like"
                 android:textAppearance="?android:attr/textAppearanceSmall"
